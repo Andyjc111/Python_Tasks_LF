@@ -1,0 +1,7 @@
+# Problem 2 Data Anonymiszation
+
+## Approach
+
+- 'AC_data_generator.py' was developed in python 3.8 runtime to generate fake sensitive information CSV.
+- For convenience, same script implements basic SHA256 encoding for a small volume of data.
+- For scaled up data volume 'AC_data_anonymizer.py' was developed to run in spark 2.4.5
